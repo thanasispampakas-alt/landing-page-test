@@ -3,33 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nexus // Overdrive Grid</title>
+  <title>Nexus // Toxic Overdrive</title>
   
-  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Oswald:ital,wght=0,700;0,900;1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Oswald:ital,wght@0,700;0,900;1,700&display=swap" rel="stylesheet">
   
-  <!-- Local Stylesheet -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- AGGRESSIVE COMIC BOOK CROSSHAIR CURSOR -->
   <div id="target-cursor">
     <div class="crosshair-h"></div>
     <div class="crosshair-v"></div>
   </div>
 
-  <!-- GLOBAL HALFTONE INK TEXTURE OVERLAY -->
   <div class="halftone-overlay"></div>
 
-  <!-- TOXIC RADAR MENU TRIGGER -->
   <button class="brutal-menu-toggle" id="menu-toggle">
     <span class="toggle-box">INDEX</span>
   </button>
 
-  <!-- THE BRUTAL SPLIT-PANEL FULLSCREEN MENU -->
   <div class="brutal-menu-overlay" id="menu-overlay">
     <div class="menu-close-trigger" id="menu-close">CLOSE // ESC</div>
     <div class="menu-grid">
@@ -48,7 +42,6 @@
     </div>
   </div>
 
-  <!-- PHASE 0: CINEMATIC VIDEO HERO INTRO -->
   <section class="comic-video-hero">
     <div class="video-container">
       <video autoplay muted loop playsinline class="hero-ink-video">
@@ -67,11 +60,9 @@
     </div>
   </section>
 
-  <!-- PHASE A: HORIZONTAL PANNING GAUNTLET -->
   <div class="comic-universe">
     <div class="horizontal-track">
 
-      <!-- PANEL 1: THE MANIFESTO -->
       <section class="comic-panel panel-acid-dark">
         <div class="panel-content">
           <div class="action-burst">KABOOM!</div>
@@ -83,7 +74,6 @@
         </div>
       </section>
 
-      <!-- PANEL 2: THE VILLAIN -->
       <section class="comic-panel panel-acid-bright">
         <div class="panel-content skew-reverse">
           <div class="threat-level">THREAT LEVEL: OMEGA</div>
@@ -95,7 +85,6 @@
         </div>
       </section>
 
-      <!-- PANEL 3: THE SUPERPOWER -->
       <section class="comic-panel panel-blue">
         <div class="panel-content">
           <h2 class="slam-text">ZERO<br><span class="highlight-acid">FRICTION.</span></h2>
@@ -106,7 +95,6 @@
         </div>
       </section>
 
-      <!-- PANEL 4: THE TRANSITION ZONE -->
       <section class="comic-panel panel-black">
         <div class="panel-content final-stand">
           <h2 class="slam-text text-white">BRACE<br><span class="highlight-acid">YOURSELF.</span></h2>
@@ -118,10 +106,8 @@
     </div>
   </div>
 
-  <!-- PHASE B: VERTICAL PARALLAX SPLIT ZONES -->
   <div class="vertical-universe">
 
-    <!-- VERTICAL SPLIT FRAME 01 -->
     <section class="split-frame frame-orange">
       <div class="left-content">
         <div class="panel-tag">TACTICAL CELL // 05</div>
@@ -136,7 +122,6 @@
       </div>
     </section>
 
-    <!-- VERTICAL SPLIT FRAME 02 -->
     <section class="split-frame frame-purple">
       <div class="left-content text-right-align">
         <div class="panel-tag tag-acid">TACTICAL CELL // 06</div>
@@ -151,7 +136,6 @@
       </div>
     </section>
 
-    <!-- FINAL CALL TO ACTION BRUTAL PANEL -->
     <section class="comic-outro-gate">
       <div class="outro-content">
         <h2 class="slam-text text-white">CHOOSE YOUR <span class="highlight-acid">WEAPON.</span></h2>
@@ -161,11 +145,9 @@
 
   </div>
 
-  <!-- GSAP Core & ScrollTrigger CDNs -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
   
-  <!-- Local Engine Script -->
   <script src="script.js"></script>
 </body>
 </html>
